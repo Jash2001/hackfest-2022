@@ -17,3 +17,8 @@
     justify-content: space-around;
     flex-flow: row wrap;
 } 
+.title_expenses
+{
+    font-size: 40px;
+}
+
