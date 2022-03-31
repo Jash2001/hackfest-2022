@@ -19,7 +19,7 @@ function ProblemsTitle() {
     <>
       <NavBar />
       <div className="ViewExpenses">
-        <div className="title_expenses">PROBLEM STATEMENTS</div>
+        <div className="title_expenses">Problem Statements</div>
         <div className="Viewps">
           {ps.map((data) => (
             <div className="card">

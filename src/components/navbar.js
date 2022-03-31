@@ -7,7 +7,7 @@ function Navbar(){
             <div className='navbar'>
                 <ul className='navbar-list'>
                     <li className='hackname'> HACKFEST'22 </li> 
-                    <li className='problems'> <a href='#'> Problem Statements </a> </li>
+                    <li className='problems'> <a href='#'> PROBLEM STATEMENTS </a> </li>
                 </ul>
             </div>
         </div>
