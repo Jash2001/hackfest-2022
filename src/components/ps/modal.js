@@ -20,7 +20,7 @@ function MydModalWithGrid(props) {
     <Modal {...props} aria-labelledby="contained-modal-title-vcenter" centered>
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Problem Statement
+          PROBLEM STATEMENTS
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="show-grid">
@@ -45,7 +45,7 @@ function Button_grid() {
         className="btn_view"
         onClick={() => setModalShow(true)}
       >
-        View Problem Statement
+        View
       </Button>
 
       <MydModalWithGrid show={modalShow} onHide={() => setModalShow(false)} />

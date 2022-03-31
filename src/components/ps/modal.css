@@ -2,20 +2,20 @@
     padding-left: 10px;
   }
   .btn_view {
-    /* background-color: rgb(155, 36, 155); */
-    /* background-color: rgb(123, 25, 148); */
+    background-color: #007251;
     color: white;
-    height: 45px;
-    width: 220px;
-    padding: 5px;
-    border-radius: 0.6cm;
-    text-transform: none;
+    height: 38px;
+    width: 90px;
+    margin-top: 60px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    border-radius: 0.4cm;
     font-size: medium;
   }
   .btn_view:hover {
-    font-weight: 400;
     color: white;
-    /* font-size: larger; */
+    background-color:#31a584 ;
+    border: 2px solid #007251;
   }
   
   .modal_details {
