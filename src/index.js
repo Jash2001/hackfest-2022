@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ProblemsTitle from "./components/ProblemTitle";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ProblemsTitle from "./components/ps/ProblemTitle";
+import MydModalWithGrid from "./components/ps/modal";
 
 ReactDOM.render(
   <React.StrictMode>
