@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: #1b7769
+}
+
+.navbar-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hackname {
+    float: left;
+}
+
+.problems {
+    float: right;
+    margin-left: 70%;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
