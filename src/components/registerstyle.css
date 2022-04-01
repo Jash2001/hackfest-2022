@@ -1,20 +1,34 @@
 .register-btn {
-	width: 100%;
+	background-color: #569686;
+	padding: 8px 13px;
+	border: 1px solid transparent;
+	border-radius: 5%;
+	height: fit-content;
+}
+.register-bg {
+	padding-top: 20px;
 	display: flex;
 	justify-content: center;
+	height: 90px;
+	width: 100%;
+	background-color: #0a4845;
 }
 
 a:link,
 a:visited {
-	background-color: #36f48b;
+	/*background-color: #569686;
+  padding: 14px 25px; */
 	color: white;
-	padding: 14px 25px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	font-size: 21px;
+	font-style: oblique;
+	font-weight: 450;
 }
 
 a:hover,
+button:hover,
 a:active {
-	background-color: #36f48b;
+	background-color: #2d7362;
 }
