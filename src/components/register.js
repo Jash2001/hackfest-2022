@@ -10,7 +10,7 @@ function Register() {
 				</a>
 			</button>
 			<button className='register-btn'>
-				<a target='_blank' href='https://forms.gle/tU6QUA8yrmgdwXn5A'>
+				<a href='/template.pptx' download>
 					Download Template
 				</a>
 			</button>
