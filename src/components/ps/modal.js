@@ -13,11 +13,11 @@ function MydModalWithGrid(props) {
     4: "Description: Build a face detection-based solution which can identify the temperature of the people entering a building in groups, where individual body temp. check is not possible using CCTV feeds. • Build a face detection-based solution which can identify student/employee and cross check with database repository, using CCTV feeds. The solution should include the following features: • Identify student/employee whose faces may be partially visible due to the varying angles at which CCTV cameras are typically placed • Handle people of different age, skin colour, gender and facial structure • Identify suspects with over 90% accuracy based on photographs of suspects provided as input • Throw an alert in real time as soon as ananyone in the crowd has a body temperature beyond the normal temperature, is detected. The video and associated timestamps should also be highlighted. • The system should also send alert of the student/employee who have not wear mask, to the Deptt. Head/organisation head, along with the individual, as a caution. • The attendance of the individual will also be registered through the CCTV feed and the data passed on to the Payroll system, for salary calculation and leave management applications. • Search for multiple individuals within multiple CCTV feeds concurrently",
     5: "IWAI has developed a web-based Portal in-house (by PwC, Project Management Consultant engaged by IWAI) to compile, monitor and analyse cargo traffic on National Waterways directly uploaded by IWAI Regional Directorates, Maharashtra Maritime Board, Gujarat Maritime Board and MormugaoPort Trust for the National Waterways under their jurisdiction. The Portal provides information on its dashboard on year-wise traffic for all National Waterway, various OD pairs, shippers, commodities, jetty-wise, cargo type wise, etc    ",
     6: "In the last two decades, there has been rapid migration of the young population from the remote villages in hilly areas to medium and large cities. Consequently, majority of the population in these villages comprises women and old people. Some of these villages are yet to be connected by road and thus do not have even basic health support system. A good health facility having presence of a doctor is sometimes more than 25 km away, which is inconvenient considering that some of the old people are not able to travel large distances. The problem is compounded by the fact that hill areas have severe shortage of doctors. Visits to these villages by health workers remain largely on paper and little meaningful medical support is currently being provided to these old people. During the outbreak of the second wave of COVID 19, people living in some of these areas also contacted the virus. However, there was hardly any medical aid available. A solution may be sought from students through this hackathon to solve the problem of medical support in remote hill areas",
-    7: "The principles of the circular economy on the farming system ensure that important nutrients are returned to the soil through anaerobic processes or composting, which softens the exploitation of land and natural ecosystems. In this way, as “waste” is returned to the soil, besides having fewer residues to deal with, the soil gets healthier and more resilient, allowing a greater balance in the ecosystems that surround it. As well, since soil degradation costs an estimated US$40 billion annually worldwide, and has hidden costs such as the increase of fertilizer use, loss of biodiversity and loss of unique landscapes – a circular economy could prove to be really useful for both the soils and the economy. A circular economy model in food systems has the potential to decrease 80% of the use of artificial fertilizer and therefore contributing to the natural balance of soils, according to a study.Most of the waste food that is being generated is dumped in landfills. This was we are losing the opportunity to use the food waste in more better things such as creating organic fertilizers or biogas. Hence tracking this food waste can help in bringing out more productivity to the waste that is being generated.Tracking food waste can help divert it from entering the landfill towards more productive usage. We need you to use modern generation M.L based techniques to track out the amount of food waste and categories them on how and which sectors we can use that waste for more productive areas.",
+    7: "The principles of the circular economy on the farming system ensure that important nutrients are returned to the soil through anaerobic processes or composting, which softens the exploitation of land and natural ecosystems. In this way, as “waste” is returned to the soil, besides having fewer residues to deal with, the soil gets healthier and more resilient, allowing a greater balance in the ecosystems that surround it. As well, since soil degradation costs an estimated US$40 billion annually worldwide, and has hidden costs such as the increase of fertilizer use, loss of biodiversity and loss of unique landscapes – a circular economy could prove to be really useful for both the soils and the economy. A circular economy model in food systems has the potential to decrease 80% of the use of artificial fertilizer and therefore contributing to the natural balance of soils, according to a study.Most of the waste food that is being generated is dumped in landfills. This was we are losing the opportunity to use the food waste in more better things such as creating organic fertilizers or biogas. Hence tracking this food waste can help in bringing out more productivity to the waste that is being generated.Tracking food waste can help divert it from entering the landfill towards more productive usage. We need you to use modern generation Machine learning based techniques to track out the amount of food waste and categories them on how and which sectors we can use that waste for more productive areas.",
     8: "Income Tax Calculation portal  for college to calculate the tax to be claimed ,REFER:contact Narendran sir from COIN ",
     9: "Gate pass System using QR code ",
-    10: "Ai based attendance App   ",
-    11: "Hostel Management System    ",
+    10: "Ai based attendance App ",
+    11: "Hostel Management System ",
     12: "First Come First Serve based choice based choosing subject",
     13: "Plumber , Electrical online booking System  ",
     14: "AR based app for material explanation in 3D view",
@@ -40,7 +40,6 @@ function MydModalWithGrid(props) {
       <Modal.Body className="show-grid">
         {/* {statement.map((data, i) => ( */}
         <Container>{statement[props.id]}</Container>
-        {/* ))} */}
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -56,10 +55,10 @@ function Button_grid(props) {
     <>
       <Button
         variant="primary"
-        className="btn_view"
+        className="button_view"
         onClick={() => setModalShow(true)}
       >
-        View Problem Statement
+        View
       </Button>
 
       <MydModalWithGrid

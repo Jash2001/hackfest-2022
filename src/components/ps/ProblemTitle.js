@@ -4,70 +4,71 @@ import NavBar from "../navbar";
 // import Button_grid from "./modal";
 import Button_grid from "./modal";
 import "./ProblemTitle.css";
+import Poster from "./poster.png";
+import Food from "./food.jpg";
 
 function ProblemsTitle() {
   const ps = [
-    { psname: "Pattern recognition", ps: 1 },
-    { psname: "Traffic System", ps: 2 },
-    { psname: "Face detection", ps: 3 },
-    { psname: "Web Development", ps: 4 },
-    { psname: "Health in Rural Areas", ps: 5 },
-    { psname: "M.L. in Food Waste Management", ps: 6 },
-    { psname: "Event Management App", ps: 7 },
-    { psname: "Income Tax Calculation portal", ps: 8 },
-    { psname: "Gate pass System using QR code", ps: 9 },
-    { psname: "Ai based attendance App", ps: 10 },
-    { psname: "Hostel Management System", ps: 11 },
     {
-      psname: "First Come First Serve based choice based choosing subject",
-      ps: 12,
+      psname: "Track warm blooded species using thermal camera",
+      ps: 1,
+      img_url:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIVYejAymaNutw5uU0etT99GFYFvLCWv9lLA&usqp=CAU",
     },
-    { psname: "Plumber , Electrical online booking System", ps: 13 },
-    { psname: "AR based app for material explanation in 3D view", ps: 14 },
-    { psname: "Digital app for coin", ps: 15 },
+    { psname: "Mental Rehabilitation App", ps: 2, img_url: Food },
+    { psname: " Automated Driving with traffic lights", ps: 3, img_url: Food },
+    { psname: "Face detection to identify temperature", ps: 4, img_url: Food },
+    {
+      psname: "AI based indentification with CCTV feeds",
+      ps: 5,
+      img_url: Food,
+    },
+    { psname: "Farming system ", ps: 6, img_url: Food },
+
+    { psname: "Income Tax Calculation portal", ps: 7, img_url: Food },
+    { psname: "Gate pass System using QR code", ps: 8, img_url: Food },
+    { psname: "Ai based attendance App", ps: 9, img_url: Food },
+    {
+      psname: "Hostel Management System",
+      ps: 10,
+      img_url:
+        "https://media.istockphoto.com/vectors/attendance-concept-businessman-holding-document-vector-flat-design-vector-id1167651240?k=20&m=1167651240&s=612x612&w=0&h=3jN8v2aA_7xIuPUiPZM0V-JLacPowcb32wCfq1ckJmg=",
+    },
+    {
+      psname: "FCFS based choice based choosing subject",
+      ps: 11,
+      img_url:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIVYejAymaNutw5uU0etT99GFYFvLCWv9lLA&usqp=CAU",
+    },
+    {
+      psname: "Plumber , Electrical online booking System",
+      ps: 12,
+      img_url: Food,
+    },
+    {
+      psname: "AR based app for material explanation in 3D view",
+      ps: 13,
+      img_url: Food,
+    },
+    { psname: "Digital app for coin", ps: 14, img_url: Food },
+    { psname: "Event Management App", ps: 15, img_url: Food },
   ];
 
   return (
     <>
-      <NavBar />
+      {/* <Poster /> */}
+      <img src={Poster} className="poster"></img>
       <div className="ViewExpenses">
-        <div className="title_expenses">Problem Statements</div>
+        <div className="title_ps">Problem Statements</div>
         <div className="Viewps">
           {ps.map((data) => (
             <div className="card">
               <div className="status">
+                <img src={data.img_url} className="img_ps"></img>
                 <h5>{data.psname}</h5>
               </div>
 
               <Button_grid id={data.ps}></Button_grid>
-
-              {/* <Button
-                variant="primary"
-                className="btn_view"
-                onClick={() => setModalShow(true)}
-              >
-                View Problem Statement
-              </Button>
-
-              <Modal
-                {...props}
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title id="contained-modal-title-vcenter">
-                    Problem Statement
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body className="show-grid">
-                  {statement.map((data, i) => (
-                    <Container>{data.statement1}</Container>
-                  ))}
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button onClick={props.onHide}>Close</Button>
-                </Modal.Footer>
-              </Modal> */}
             </div>
           ))}
           ;
