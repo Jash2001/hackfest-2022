@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Button, Modal, Row, Col, Container } from "react-bootstrap";
-import NavBar from "../navbar";
-// import Button_grid from "./modal";
 import Button_grid from "./modal";
 import "./ProblemTitle.css";
-import Poster from "./poster.png";
 import Food from "./food.jpg";
 
 function ProblemsTitle() {
@@ -56,8 +53,6 @@ function ProblemsTitle() {
 
   return (
     <>
-      {/* <Poster /> */}
-      <img src={Poster} className="poster"></img>
       <div className="ViewExpenses">
         <div className="title_ps">Problem Statements</div>
         <div className="Viewps">
