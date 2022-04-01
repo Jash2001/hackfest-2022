@@ -25,3 +25,7 @@
   .closeButton {
     color: white;
   }
+  .modal-width {
+    width: 60vw  ;  /* Occupy the 90% of the screen width */
+    max-width: 80vw;
+  }
