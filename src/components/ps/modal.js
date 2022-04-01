@@ -21,7 +21,7 @@ function MydModalWithGrid(props) {
     12: "First Come First Serve based choice based choosing subject",
     13: "Plumber , Electrical online booking System  ",
     14: "AR based app for material explanation in 3D view",
-    15: "Digital app for coin",
+    15: "Digital app for Collaborative Innovation Center",
     16: "Event Management App ",
   };
 
@@ -58,7 +58,7 @@ function Button_grid(props) {
         className="button_view"
         onClick={() => setModalShow(true)}
       >
-        View
+        PS : {props.id}
       </Button>
 
       <MydModalWithGrid
