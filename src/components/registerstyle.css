@@ -1,20 +1,20 @@
 .register-btn {
-  margin: auto;
-  width: 50%;
-  padding-left: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 a:link,
 a:visited {
-  background-color: #36f48b;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	background-color: #36f48b;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
 a:hover,
 a:active {
-  background-color: #36f48b;
+	background-color: #36f48b;
 }

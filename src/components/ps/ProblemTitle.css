@@ -1,55 +1,58 @@
-.card{
-    box-shadow: 0 4px 8px 0 #3c7d73;
-    margin: 20px 10px 30px 20px;
-    border-radius:4%;
-    padding: 0px 30px;
-    float: left;
-    height: 350px;
-    width: 300px;
-    text-align: center;
+.card {
+	box-shadow: 0 4px 8px 0 #3c7d73;
+	margin: 20px 10px 30px 20px;
+	border-radius: 4%;
+	padding: 0px 30px;
+	float: left;
+	/* height: 350px; */
+	width: 300px;
+	text-align: center;
 }
 
-.status{
-    margin-top: 45px;
-    font-size: 25px;
-    /* font-style: bold; */
-    font-weight: 500;
+.status {
+	margin-top: 45px;
+	font-size: 25px;
+	/* font-style: bold; */
+	font-weight: 500;
 }
-.img_ps{
-    padding-bottom: 30px;
-    width: 180px;
-    height: 180px;
+.img_ps {
+	padding-bottom: 30px;
+	width: 180px;
+	height: 180px;
 }
-.Viewps
-{
-    padding: 30px;
-    display: flex;
-    /* column-gap: 5px ; */
-    /* align-items: center;  */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-} 
-
-.Viewps >* {
-    flex: 1 0 30%;
-
-}
-.title_ps
-{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    padding-top: 25px;
-    font-style: italic;
-}
-.ViewExpenses{
-    background-image: url('https://ak.picdn.net/shutterstock/videos/26157545/thumb/1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.Viewps {
+	padding: 30px;
+	display: flex;
+	/* column-gap: 5px ; */
+	/* align-items: center;  */
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
 }
 
-.poster{
-    width: 1519px;
+.Viewps > * {
+	flex: 1 0 30%;
+}
+.title_ps {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 25px;
+	font-style: italic;
+}
+.ViewExpenses {
+	background-image: url('https://ak.picdn.net/shutterstock/videos/26157545/thumb/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.poster {
+	width: 1519px;
+}
+
+@media only screen and (max-width: 600px) {
+	.Viewps {
+		flex-direction: column;
+	}
 }
