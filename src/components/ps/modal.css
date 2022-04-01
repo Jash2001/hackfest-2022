@@ -1,27 +1,40 @@
 .show-grid {
     padding-left: 10px;
   }
-  .btn_view {
+  .button_view {
     background-color: #007251;
     color: white;
-    height: 38px;
-    width: 90px;
-    margin-top: 60px;
-    margin-left: 230px;
-    margin-bottom: 20px;
+    height: 45px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 10px;
     border-radius: 0.4cm;
-    font-size: medium;
+    font-size: 20px;
+    font-weight: 600;
   }
-  .btn_view:hover {
+  .button_view:visited {
     color: white;
     background-color:#31a584 ;
     border: 2px solid #007251;
   }
-  
+  .button_view:hover {
+    color: white;
+    background-color:#31a584 ;
+    border: 2px solid #007251;
+  }
+  .button_view:active {
+    color: white;
+    background-color:#31a584 ;
+    border: 2px solid #007251;
+  }
   .modal_details {
     background-color: rgb(172, 110, 187);
     color: white;
   }
   .closeButton {
     color: white;
+  }
+  .modal-width {
+    width: 60vw  ;  /* Occupy the 90% of the screen width */
+    max-width: 80vw;
   }

@@ -1,28 +1,45 @@
 .card{
     box-shadow: 0 4px 8px 0 #3c7d73;
-    margin: 20px 0px 20px 18px;
-    border-radius:20% 1%;
+    margin: 20px 10px 30px 20px;
+    border-radius:4%;
     padding: 50px 30px;
-    
     float: left;
-    height: 220px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
     text-align: center;
-    background-color: #d0f2ed;
-    text-align: center;
+}
+
+.status{
+    margin-top: 150px;
+    font-size: 25px;
+    /* font-style: bold; */
+    font-weight: 500;
 }
 .Viewps
 {
-    background-color: azure;
+    padding: 30px;
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    /* column-gap: 5px ; */
+    /* align-items: center;  */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
 } 
+
+.Viewps >* {
+    flex: 1 0 30%;
+
+}
 .title_expenses
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
 }
-
+.ViewExpenses{
+    background-image: url('https://ak.picdn.net/shutterstock/videos/26157545/thumb/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 

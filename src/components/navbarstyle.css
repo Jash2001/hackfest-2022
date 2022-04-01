@@ -4,7 +4,8 @@ html, body{
 }
 
 .home{
-    background-color: #1b7769
+    background-color: #43ab9b;
+    padding: 10px 70px 10px 70px;
 }
 
 .navbar-list {
@@ -14,10 +15,13 @@ html, body{
     padding: 0;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .hackname {
     float: left;
+    text-decoration: none;
+    color: #fffefe;
 }
 
 .problems {
@@ -27,6 +31,79 @@ html, body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #000000;
+    color: #fffefe;
+}
+
+a:link {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media (max-width: 896px){
+    .home{
+        background-color: #43ab9b;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .navbar-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .problems {
+        float: right;
+        margin-left: 25%;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: #fffefe;
+    }
+    
+    a:link {
+        color: #ffffff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+      
+    a:visited {
+        color: #ffffff;
+        background-color: transparent;
+        text-decoration: none;
+    }
+      
+    a:hover {
+        color: #ffffff;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+      
+    a:active {
+        color: #ffffff;
+        background-color: transparent;
+        text-decoration: underline;
+    }
 }
 

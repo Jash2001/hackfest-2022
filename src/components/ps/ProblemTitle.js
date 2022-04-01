@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button, Modal, Row, Col, Container } from "react-bootstrap";
 import NavBar from "../navbar";
 // import Button_grid from "./modal";
 import Button_grid from "./modal";
@@ -25,6 +26,7 @@ function ProblemsTitle() {
     { psname: "AR based app for material explanation in 3D view", ps: 14 },
     { psname: "Digital app for coin", ps: 15 },
   ];
+
   return (
     <>
       <NavBar />
@@ -36,7 +38,10 @@ function ProblemsTitle() {
               <div className="status">
                 <h5>{data.psname}</h5>
               </div>
-              <Button_grid />
+
+              <Button_grid id={data.ps}></Button_grid>
+
+       
             </div>
           ))}
           ;
