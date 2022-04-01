@@ -9,6 +9,11 @@ function Register() {
 					Register Here
 				</a>
 			</button>
+			<button className='register-btn'>
+				<a target='_blank' href='https://forms.gle/tU6QUA8yrmgdwXn5A'>
+					Download Template
+				</a>
+			</button>
 		</div>
 	);
 }

@@ -36,7 +36,7 @@
 .title_ps {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: clamp(30px, 40px, 45px);
 	font-weight: bold;
 	padding-top: 25px;
 	font-style: italic;
