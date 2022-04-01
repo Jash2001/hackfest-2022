@@ -5,9 +5,11 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProblemsTitle from "./components/ps/ProblemTitle";
 import MydModalWithGrid from "./components/ps/modal";
+import Poster from "./components/poster";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Poster />
     <ProblemsTitle />
   </React.StrictMode>,
   document.getElementById("root")

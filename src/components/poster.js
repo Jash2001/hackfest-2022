@@ -1,6 +1,6 @@
 import React from  'react';
 import './posterstyle.css';
-import logo from '../Assets/images/poster.png'
+import logo from '../Assets/images/poster.png';
 
 function Poster(){
     return (
